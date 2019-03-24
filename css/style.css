@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #efefef;
+	font-family: monospace;
+}
+
+.profile-img {
+	width: 40%;
+	float: right;
+}
+
+.profile-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.about {
+	margin-left: 15px;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+.profile-info {
+	width: 60%;
+	height: 100vh;
+	float: left;
+	padding: 0 30px;
+	font-size: 1.125em;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.profile-info::-webkit-scrollbar {
+	width: 0px;
+}
+
+.profile-info h1 {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.divisor-nome {
+	border: 1px solid #b3cccc;
+	width: 10%;
+	margin-bottom: 50px;
+}
+
+.social-media img {
+	height: 40px;	
+	margin: 0 auto;	
+	padding-left: 10px;
+}
+
+.social-media {
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+.divisor {
+	margin: 5px 0 10px 0;
+	border: 2px solid #b3cccc;
+	width: 20%;
+}
+
+.profile-info h2 {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.skills img {
+	height: 180px;
+	width: 100%;
+	margin: 5px;
+}
+
+.skills {
+	display: inline-block;
+	width: 28%;
+	padding: 30px 10px;
+	text-align: center;
+	margin: 2%;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+	background-color: #fff;
+}
+
+.skills small {
+	padding-top: 10px;
+	display: block;
+}
+
+.projects {
+	width: 31px;
+	padding: 4px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.form-box {
+	margin-top: 30px;
+}
+
+.input-group input {
+	width: 45%;
+	border: 0;
+	outline: none !important;
+	padding: 10px;
+	margin: 2%;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.text-area textarea {
+	width: 95%;
+	border: 0;	
+	outline: none !important;
+	padding: 10px;
+	margin: 2%;	
+	background-color: #fff;
+}
+
+.submit-btn {	
+	border: 0;	
+	outline: none !important;
+	padding: 10px 20px;
+	margin: 2%;	
+	background-color: #2ab0ff;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.form-box h2 {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.copyright {
+	text-align: center;
+	margin: 0 auto;
+	background-color: yellow;
+	max-width: 280px;
+}
+
+@media only screen and (max-width: 900px){
+	.profile-info {
+		width: 100%;
+		overflow: inherit;
+	}
+	.profile-img {
+		width: 100%;
+	}
+	.skills {
+		width: 95%;
+		margin-bottom: 10%;
+	}
+	.skills img {
+		height: 8%;
+		margin: 10px 0;
+	}
+	.projects img{
+		width: 47%;
+	}
+}
